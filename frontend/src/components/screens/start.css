@@ -1,0 +1,34 @@
+.ccontainer {
+  position: relative;
+  z-index: 15;
+  top: 40%;
+  left: 10%;
+  margin: -100px 0 0 -150px;
+  color: floralwhite;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.ccontainer1 {
+  position: absolute;
+  left: 30%;
+  background-color: black;
+  padding: 40px;
+  border-radius: 20px;
+  width: 30%;
+}
+
+@media (max-width: 700px) {
+  .ccontainer1 {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    width: 50%;
+    padding: 40px;
+  }
+}
+@media screen and (width: 320px) and (height: 568px) {
+  .ccontainer1 {
+    left: 35%;
+  }
+}
